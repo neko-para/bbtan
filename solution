@@ -1,0 +1,7 @@
+target bbtan
+	type excutable
+	default true
+	std c++11
+	link glfw3.dll
+	link opengl32
+	source @main.cpp
